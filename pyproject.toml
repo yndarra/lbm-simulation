@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+# Корень проекта в sys.path, чтобы `pytest` находил пакет без установки.
+pythonpath = ["."]
+testpaths = ["tests"]
